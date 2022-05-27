@@ -15,6 +15,11 @@ header{
 
 aside{
     grid-area: aside;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 2%;
+    margin: 0;
 }
 
 main{
@@ -40,4 +45,34 @@ footer{
     grid-template-columns: repeat(3,1fr);
     gap: 0.8rem;
     height: 100%;
+}
+
+.contenedor-menu{
+
+}
+
+ul {
+    padding-left: 10%;
+    margin-top: 0;
+}
+
+li {
+    list-style: none;
+    line-height: 2;
+    text-align: left;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+.cantidad{
+    color: #767879;
+    font-style: oblique;
+    font-size: small;
+}
+
+.liCategoria:hover{
+    color: #767879;
 }
