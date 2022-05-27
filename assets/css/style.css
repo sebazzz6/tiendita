@@ -7,6 +7,10 @@ html, body {
 
 header{
     grid-area: header;
+    text-align: center;
+    background-color: #1e365a;
+    color: #f0f8ff;
+    padding: 1rem;
 }
 
 aside{
